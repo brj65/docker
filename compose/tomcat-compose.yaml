@@ -5,7 +5,7 @@ services:
     container_name: Tomcat-Server
     image: tomcat:9.0-jdk17-corretto
     ports:
-    - "8082:8080" 
+    - "8088:8080" 
 #    volumes:
 #    - /opt/docker/back_end/usr/share/fonts:/usr/share/fonts
 #    - /opt/docker/back_end/opt/assets_vault:/opt/assets_vault
