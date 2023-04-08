@@ -5,8 +5,11 @@ services:
     container_name: Tomcat-Server
     image: tomcat:9.0-jdk17-corretto
     ports:
-    - "8088:8080" 
-#    volumes:
+    - "8088:8080"
+    
+    volumes:
+     - /opt/docker/tomcat/webapps:/usr/local/tomcat/webapps
+      - /opt/docker/tomcat/logs:/usr/local/tomcat/logs
 #    - /opt/docker/back_end/usr/share/fonts:/usr/share/fonts
 #    - /opt/docker/back_end/opt/assets_vault:/opt/assets_vault
 #    - /opt/docker/back_end/app:/deployments/app
