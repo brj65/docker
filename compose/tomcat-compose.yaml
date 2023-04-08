@@ -9,7 +9,7 @@ services:
     
     volumes:
      - /opt/docker/tomcat/webapps:/usr/local/tomcat/webapps
-      - /opt/docker/tomcat/logs:/usr/local/tomcat/logs
+     - /opt/docker/tomcat/logs:/usr/local/tomcat/logs
 #    - /opt/docker/back_end/usr/share/fonts:/usr/share/fonts
 #    - /opt/docker/back_end/opt/assets_vault:/opt/assets_vault
 #    - /opt/docker/back_end/app:/deployments/app
