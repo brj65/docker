@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   tomcat:
-    container_name: Tomcat Server
+    container_name: Tomcat-Server
     image: tomcat:9.0-jdk17-corretto
     ports:
     - "8082:8080" 
